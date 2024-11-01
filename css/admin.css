@@ -1,0 +1,30 @@
+.loading_scan{
+    background:url(../images/loading-x.gif) center center no-repeat;
+    min-height: 250px;
+    text-indent: -99999px;
+    overflow: hidden;
+}
+.center{
+    text-align: center;
+}
+#status_bar{
+    height:40px;
+}
+#status_bar .right{
+    float:right;
+}
+#status_bar .ui-progressbar-value{
+    height: 100%;
+}
+.progress-label {
+    font-weight: bold;
+    left: 50%;
+    position: absolute;
+    text-shadow: 1px 1px 0 #fff;
+    top: 4px;
+    line-height: 38px;
+    font-size:36px;
+}
+.ui-progressbar {
+    position: relative;
+}
